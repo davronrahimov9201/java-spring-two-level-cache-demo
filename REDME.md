@@ -70,7 +70,7 @@ Client → L1: Caffeine → L2: Redis → Database
 --- 
 
 ## ℹ️ Data Example
-In the demo application, data about products and categories is used. In other projects, other reference data may be used — for example, regions and districts, tariffs and interest rates, and so on.
+The demo application uses data on products and categories. Other projects may use other reference data, such as regions and districts, tariffs and interest rates, etc.
 
 ---
 

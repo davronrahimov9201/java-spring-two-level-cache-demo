@@ -1,0 +1,22 @@
+server:
+  port: 1313
+
+spring:
+  application:
+    name: demo
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5433/two_level_cache_demo
+    username: postgres
+    password: postgres
+  jpa:
+    show-sql: true
+  flyway:
+    enabled: true
+    baseline-version: 1
+    sql-migration-prefix: V
+    sql-migration-suffixes: .sql
+    baseline-on-migrate: true
+  cache:
+    redis:
+      time-to-live: 120
